@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .App {
   text-align: center;
   /* background-image: url("https://static.vecteezy.com/system/resources/previews/004/904/919/original/green-leaf-background-illustration-free-vector.jpg"); */

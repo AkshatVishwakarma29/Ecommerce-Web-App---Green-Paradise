@@ -52,6 +52,18 @@ function Navbar() {
           <Box ml={4}>
             <Link
               as={RouterLink}
+              to="/Seller"
+              fontSize="sm"
+              fontWeight="bold"
+              color="white"
+              _hover={{ textDecoration: 'none', opacity: 0.8 }}
+            >
+             Seller
+            </Link>
+          </Box>
+          <Box ml={4}>
+            <Link
+              as={RouterLink}
               to="/login"
               fontSize="sm"
               fontWeight="bold"

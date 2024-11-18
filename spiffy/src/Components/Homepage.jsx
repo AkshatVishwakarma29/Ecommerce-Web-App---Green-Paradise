@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import { Link ,useLocation} from "react-router-dom";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-
+import Grass from "../grass-surface-with-decorative-elements.svg";
 
 export default function Home(){
 
@@ -60,7 +60,7 @@ export default function Home(){
                     <Image src="https://i.imgur.com/fSuJABV.png"/>
                     </Center>
                     <Text color={"#466c01"} margin={"5%"}>
-                        20% of the profit goes to the arme forces of Ukrain
+                        
                     </Text>
                     <Button bgColor={"#466c01"} color={"white"}>
                         Catalogue
@@ -82,7 +82,7 @@ export default function Home(){
                     <Image src="https://i.imgur.com/fSuJABV.png"/>
                     </Center>
                     <Text color={"black"}>
-                        We are a store of indoor plants of various types in Kyiv. Hundreds of different types of plants: from ficuses to ferns. We love and cherish our plants from their very "birth", so they will definitely bring happiness, joy, love and comfort to your home.
+                        By repurposing grass waste, we can unlock its potential and create valuable products that benefit the environment
                     </Text>
                 </Box>
             </Grid>
@@ -121,7 +121,8 @@ export default function Home(){
                     </Box>
                     </>
                 ) : (
-                    <Text>Loading...</Text>
+                    <Image src={Grass}/>
+                    
                 )}
                 </Box>
                 <Box>
@@ -210,8 +211,7 @@ export default function Home(){
                     <Image src="https://i.imgur.com/fSuJABV.png"/>
                     </Center>
                     <Text color={"black"}>
-                     We package our plants securely yet sustainably by reusing boxes, paper (newspapers), etc. Delivery is carried out to all cities of Ukraine, except for the occupied ones. Pickup is possible in Kyiv.
-We have full & partial prepayment by card and cash on delivery to make you feel completely secure. We have many testimonials from new and regular customers.
+                    We package our plants securely and sustainably by reusing boxes, paper (such as newspapers), and other eco-friendly materials. Delivery is available throughout Chennai, and pickup is an option as well. We offer full and partial prepayment options by card, as well as cash on delivery, ensuring you feel secure with every purchase. With many testimonials from both new and loyal customers, you can trust us for a smooth and satisfying experience.
                     </Text>
                     <Button margin={"5%"} bgColor={"#466c01"} color={"white"}>
                         Catalogue

@@ -88,7 +88,7 @@ function Cart() {
           ))}
          </Box>
          <Box>
-         <Heading size="md">Total: ${calculateTotal()}</Heading>
+         <Heading size="md">Total:{calculateTotal()}</Heading>
          </Box>
         </div>
        

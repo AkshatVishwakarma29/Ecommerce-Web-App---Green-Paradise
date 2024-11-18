@@ -8,7 +8,7 @@ const Footer = () => {
         <IconButton
           colorScheme={"teal"}
           as={Link}
-          href="https://www.facebook.com/mbalayang"
+          href=""
           aria-label="Facebook"
           icon={<AiFillFacebook />}
           mx={2}
@@ -17,7 +17,7 @@ const Footer = () => {
         colorScheme={"teal"}
 
           as={Link}
-          href="https://www.instagram.com/mbalayang"
+          href=""
           aria-label="Instagram"
           icon={<AiFillInstagram />}
           mx={2}
@@ -25,7 +25,7 @@ const Footer = () => {
         <IconButton
         colorScheme={"teal"}
           as={Link}
-          href="https://www.twitter.com/mbalayang"
+          href=""
           aria-label="Twitter"
           icon={<AiFillTwitterCircle />}
           mx={2}
@@ -48,7 +48,7 @@ const Footer = () => {
         <Link mx={2} href="/catalouge">Products</Link>
         <Link mx={2} href="/contact">Contact</Link>
       </Flex>
-      <Flex justify="center">
+      {/* <Flex justify="center">
         <Box>
           <Text mb={2}>Subscribe to our newsletter for offers:</Text>
           <Flex alignItems={"center"}>
@@ -58,7 +58,7 @@ const Footer = () => {
             </Button>
           </Flex>
         </Box>
-      </Flex>
+      </Flex> */}
     </Box>
   );
 };
