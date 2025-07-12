@@ -2,11 +2,6 @@
 
 Green Paradise is an e-commerce website built using React, Redux, and Chakra UI. It offers a variety of features including a homepage, product browsing, cart management, payment processing, and user authentication.
 
-## Team Members
-
-- Nitin Sharma: Cart Page, Payment Page
-- Kamal Kant : Homepage, Product and Product Details Page
-- Md Zaid: Login and Signup
 
 ## Features
 
@@ -46,4 +41,3 @@ We welcome contributions to enhance the functionality and features of the Green 
 
 
 
-Feel free to reach out to any of the team members if you have questions or need assistance related to specific sections of the project.
